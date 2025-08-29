@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Receipt, Calendar, TrendingDown, DollarSign, Repeat, Clock } from "lucide-react";
 import { useExpenses } from "@/lib/clerk-api-hooks";
-import { Expense } from "@/types/schema";
+import { Expense } from "@shared/schema";
 import { formatCurrency } from "@/lib/financial-calculations";
 import { ExpenseForm } from "@/components/expense-form";
 
